@@ -9,13 +9,21 @@ This project is the final graduation milestone for the **Digital Egypt Pioneers 
 
 ### 📊 Dynamic Excel Dashboard in Action
 > **Watch:** Our dynamic dashboard handling complex supply chain queries and real-time filtering.
-https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
 
-*(If the video doesn't load, you can find the file in the `Assets/` folder)*
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a" width="100%" controls autoplay muted loop>
+  </video>
+</div>
+
+---
 
 ### 🧱 SQL Data Modeling (The Backend)
 > **Watch:** The process of data transformation, normalization, and Star Schema creation using SQL scripts.
-https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/6e2b6a88-2921-432a-9286-4f40d8606c9a" width="100%" controls muted>
+  </video>
+</div>
 
 ---
 
