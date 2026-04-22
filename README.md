@@ -9,7 +9,7 @@ This project is the final graduation milestone for the **Digital Egypt Pioneers 
 
 ### 📊 Dynamic Excel Dashboard in Action
 > **Watch:** Our dynamic dashboard handling complex supply chain queries.
-[video width="100%" src="رابط_فيديو_الداشبورد_هنا.mp4"]
+[video width="video/video.mp4"]
 *(If the video doesn't load, you can find it in the 'Media' folder)*
 
 ### 🧱 SQL Data Modeling (The Backend)
