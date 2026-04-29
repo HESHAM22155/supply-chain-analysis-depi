@@ -43,7 +43,7 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 <p align="center"> <img src="./Suply%20chain/image/p2.gif" width="45%" /> <img src="./Suply%20chain/image/p3.gif" width="45%" /> </p>
 * **Advanced DAX:** Time Intelligence (YTD, MTD) and Profit Margin calculations.
 * **UX/UI:** Drill-down features and cross-filtering for granular analysis.
-* 🔗 **[Live Power BI Dashboard Link Here]**
+* 🔗 **Live Report:** [View Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/254e4782-bdef-46ff-a6f3-5f18e4489ad0/50f66f92d057c0501c0e?experience=power-bi)
 
 ---
 
