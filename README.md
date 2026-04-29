@@ -18,6 +18,16 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 
 ---
 
+## 👥 Team Collaboration & Methodology 
+As a specialized data team, we followed a structured **Data Pipeline** approach to ensure accuracy and scalability:
+
+* **Data Architecture:** We designed a robust **Star Schema** in SQL Server to act as our "Single Source of Truth."
+* **Operational Excellence:** Built automated Excel workflows for real-time tracking of costs and delivery efficiency.
+* **Strategic Visualization:** Translated datasets into interactive Power BI stories for executive drill-down analysis.
+* **Advanced Analytics:** Utilized Python to identify key drivers behind profitability and shipping delays.
+
+---
+
 ## 🏗️ Data Pipeline Architecture
 > **Workflow:** Raw Data → SQL Cleaning → Star Schema → Excel Dashboard → Power BI Insights → Python EDA
 
@@ -25,30 +35,28 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 <p align="center"> <img src="./Suply%20chain/image/sql.gif" width="85%" /> </p>
 
 **🎯 Objective:** Build a structured relational database optimized for analytics.
-* **Work Done:** Data Cleaning, Star Schema Design, and ETL Preparation.
+* **Work Done:** Data Cleaning (NULLs, duplicates), Star Schema Design, Primary & Foreign Keys, and ETL Preparation.
 * **📁 Source Code:** [Click here to view SQL Queries](./Suply%20chain/sql/SQLQuerycode%20projects.sql)
-
-**🎯 Objective:** Build a structured relational database optimized for analytics.
-* **Work Done:** Data Cleaning (NULLs, duplicates), Star Schema Design (Fact & Dimension Tables), Primary & Foreign Keys, and ETL Preparation.
 * **Files:** `sql/star_schema.sql`, `sql/ddl.sql`, `sql/dml.sql`
 
 ### 📊 2. Excel Dashboard Layer
 <p align="center"> <img src="./Suply%20chain/image/Dashboard%20Excel.gif" width="90%" /> </p>
 
 **🎯 Objective:** Create an interactive business-friendly KPI dashboard for operational monitoring.
-* **Features:** Revenue analysis, Cost vs Profit tracking, Product performance, and Delivery efficiency with Interactive filters.
-* **File:** `excel/Dashboard.xlsx`
+* **Features:** Revenue analysis, Cost vs Profit tracking, and Delivery efficiency with Interactive filters.
+* **File:** [Dashboard.xlsx](./excel/Dashboard.xlsx)
 
 ### 📈 3. Power BI Dashboard Layer
-<p align="center"> 
-  <img src="./Suply%20chain/image/p1.gif" width="85%" /> 
-  <img src="./Suply%20chain/image/p2.gif" width="45%" /> 
-  <img src="./Suply%20chain/image/p3.gif" width="45%" /> 
+<p align="center">  
+  <img src="./Suply%20chain/image/p1.gif" width="85%" />  
+  <img src="./Suply%20chain/image/p2.gif" width="45%" />  
+  <img src="./Suply%20chain/image/p3.gif" width="45%" />  
 </p>
 
 **🎯 Objective:** Build an executive-level BI dashboard for strategic decision-making.
 * **Features:** Advanced KPI Cards, Drill-down analysis, Time Intelligence (YTD / MTD), and Category performance.
 * 🔗 **Live Report:** [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/254e4782-bdef-46ff-a6f3-5f18e4489ad0/50f66f92d057c0501c0e?experience=power-bi)
+
 ### 🐍 4. Python Analysis (EDA Layer)
 **🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
 * **Analyses:** Univariate/Bivariate analysis, Pearson correlation, Heatmaps, and Time-series (YoY) trends.
@@ -90,9 +98,11 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
   </table>
 </details>
 
+---
+
 ## 🧱 Data Model (Star Schema)
-<p align="center"> 
-  <img src="./Suply%20chain/image/Screenshot%202026-04-29%20124541.png" width="80%" /> 
+<p align="center">  
+  <img src="./Suply%20chain/image/Screenshot%202026-04-29%20124541.png" width="80%" />  
 </p>
 
 ---
