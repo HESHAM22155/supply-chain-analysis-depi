@@ -49,7 +49,6 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 **🎯 Objective:** Build an executive-level BI dashboard for strategic decision-making.
 * **Features:** Advanced KPI Cards, Drill-down analysis, Time Intelligence (YTD / MTD), and Category performance.
 * 🔗 **Live Report:** [View Interactive Dashboard](https://app.powerbi.com/groups/me/reports/254e4782-bdef-46ff-a6f3-5f18e4489ad0/50f66f92d057c0501c0e?experience=power-bi)
-
 ### 🐍 4. Python Analysis (EDA Layer)
 **🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
 * **Analyses:** Univariate/Bivariate analysis, Pearson correlation, Heatmaps, and Time-series (YoY) trends.
@@ -90,7 +89,6 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
     </tr>
   </table>
 </details>
----
 
 ## 🧱 Data Model (Star Schema)
 <p align="center"> 
