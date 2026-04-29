@@ -52,10 +52,44 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 
 ### 🐍 4. Python Analysis (EDA Layer)
 **🎯 Objective:** Extract deep statistical insights and business drivers using data science libraries.
-* **Analyses:** Univariate/Bivariate analysis, Pearson correlation for profit drivers, and Trend Analysis.
+* **Analyses:** Univariate/Bivariate analysis, Pearson correlation, Heatmaps, and Time-series (YoY) trends.
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn.
 * **📂 Source Code:** [View Jupyter Notebook (Python Code)](./Suply%20chain/Python/ecommerce_analysis.ipynb)
 
+#### 📊 EDA Visualization Gallery
+<details>
+  <summary><b>Click to expand and view Analysis Charts (13 Charts)</b></summary>
+  <br>
+  <table align="center">
+    <tr>
+      <td><b>Top Products</b><br><img src="./Suply%20chain/Python/chart_top_products.png" width="300"/></td>
+      <td><b>Profit Distribution</b><br><img src="./Suply%20chain/Python/chart_profit_dist.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><b>Trend Analysis</b><br><img src="./Suply%20chain/Python/chart_trend.png" width="300"/></td>
+      <td><b>Year-over-Year (YoY)</b><br><img src="./Suply%20chain/Python/chart_yoy.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><b>Correlation Matrix</b><br><img src="./Suply%20chain/Python/chart_correlation.png" width="300"/></td>
+      <td><b>Heatmap Analysis</b><br><img src="./Suply%20chain/Python/chart_heatmap.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><b>Shipping Performance</b><br><img src="./Suply%20chain/Python/chart_shipping.png" width="300"/></td>
+      <td><b>Late Delivery Risk</b><br><img src="./Suply%20chain/Python/chart_late_delivery.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><b>Bivariate Analysis</b><br><img src="./Suply%20chain/Python/chart_bivariate.png" width="300"/></td>
+      <td><b>Univariate Analysis</b><br><img src="./Suply%20chain/Python/chart_univariate.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td><b>Department Performance</b><br><img src="./Suply%20chain/Python/chart_departments.png" width="300"/></td>
+      <td><b>Payment Methods</b><br><img src="./Suply%20chain/Python/chart_payment.png" width="300"/></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><b>Categorical Features</b><br><img src="./Suply%20chain/Python/chart_categoricals.png" width="400"/></td>
+    </tr>
+  </table>
+</details>
 ---
 
 ## 🧱 Data Model (Star Schema)
