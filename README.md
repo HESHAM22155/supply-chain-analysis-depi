@@ -36,7 +36,11 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 * **File:** `excel/Dashboard.xlsx`
 
 ### 📈 3. Power BI Dashboard Layer
-<p align="center"> <img src="./Suply%20chain/image/p2.gif" width="85%" /> </p>
+<p align="center"> 
+  <img src="./Suply%20chain/image/p1.gif" width="85%" /> 
+  <img src="./Suply%20chain/image/p2.gif" width="45%" /> 
+  <img src="./Suply%20chain/image/p3.gif" width="45%" /> 
+</p>
 
 **🎯 Objective:** Build an executive-level BI dashboard for strategic decision-making.
 * **Features:** Advanced KPI Cards, Drill-down analysis, Time Intelligence (YTD / MTD), and Category performance.
