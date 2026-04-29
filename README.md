@@ -25,6 +25,10 @@ This project delivers a **comprehensive Data Analytics solution** designed to tr
 <p align="center"> <img src="./Suply%20chain/image/sql.gif" width="85%" /> </p>
 
 **🎯 Objective:** Build a structured relational database optimized for analytics.
+* **Work Done:** Data Cleaning, Star Schema Design, and ETL Preparation.
+* **📁 Source Code:** [Click here to view SQL Queries](./Suply%20chain/sql/SQLQuerycode%20projects.sql)
+
+**🎯 Objective:** Build a structured relational database optimized for analytics.
 * **Work Done:** Data Cleaning (NULLs, duplicates), Star Schema Design (Fact & Dimension Tables), Primary & Foreign Keys, and ETL Preparation.
 * **Files:** `sql/star_schema.sql`, `sql/ddl.sql`, `sql/dml.sql`
 
