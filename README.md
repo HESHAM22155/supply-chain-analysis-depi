@@ -1,28 +1,33 @@
-# 🗄️ SQL Data Engineering Layer  
-### Supply Chain Analysis – DEPI Project  
+# 📦 Supply Chain Analysis – DEPI Graduation Project  
+
+<p align="center">
+  <img src="./assets/images/banner.gif" width="100%" />
+</p>
 
 ---
 
 ## 📌 Project Overview  
 
-This layer represents the **data engineering backbone** of the Supply Chain project.  
-It transforms raw data into a structured **Star Schema database** ready for analytics.
+This project is the final graduation milestone for the **Digital Egypt Pioneers Initiative (DEPI)**.  
+
+It presents a full **end-to-end Data Analytics pipeline**, transforming raw supply chain data into a structured **SQL Star Schema**, then analyzing it using Python and visualizing it through Excel and Power BI dashboards.
 
 ---
 
-## 🎯 Objective  
+## 🎯 Project Objective  
 
-- Clean raw supply chain data  
-- Build relational data model (Star Schema)  
-- Create Fact & Dimension tables  
-- Prepare data for Power BI & Python  
+- Clean and structure raw supply chain data  
+- Design a scalable Star Schema model  
+- Build Fact and Dimension tables using SQL  
+- Perform data analysis using Python  
+- Build interactive dashboards (Excel + Power BI)  
 
 ---
 
-## 🧱 Data Model (Star Schema)
+## 🧱 Data Architecture (Star Schema)
 
 ### ⭐ Fact Table:
-- Fact_Sales
+- Fact_Sales  
 
 ### 📁 Dimension Tables:
 - Dim_Products  
@@ -31,113 +36,88 @@ It transforms raw data into a structured **Star Schema database** ready for anal
 
 ---
 
-## ⚙️ ETL Process  
+## ⚙️ SQL Data Engineering Layer  
 
-### 1️⃣ Data Cleaning  
-- Remove duplicates  
-- Handle missing values  
-- Standardize formats  
-
-### 2️⃣ Data Transformation  
-- Normalize raw dataset  
-- Split into Fact & Dimensions  
-- Define relationships (PK / FK)  
-
-### 3️⃣ Data Loading  
-- Load structured tables into SQL Server  
+- Data cleaning & preprocessing  
+- Creating relational schema  
+- Defining Primary & Foreign Keys  
+- Building ETL pipeline  
 
 ---
 
-## 🖼️ Project Screenshots  
+## 🖼️ Data Modeling Visuals  
 
-### 🧱 Database Structure
 <p align="center">
-  <img src="../image/p1.gif" width="85%" />
+  <img src="./assets/images/p1.gif" width="85%" />
+</p>
+
+<p align="center">
+  <img src="./assets/images/p2.gif" width="85%" />
+</p>
+
+<p align="center">
+  <img src="./assets/images/p3.gif" width="85%" />
 </p>
 
 ---
 
-### 📊 Data Modeling Process
-<p align="center">
-  <img src="../image/p2.gif" width="85%" />
-</p>
-
----
-
-### ⚡ SQL Execution & Queries
-<p align="center">
-  <img src="../image/p3.gif" width="85%" />
-</p>
-
----
-
-## 📂 SQL Files  
-
-- `ddl/create_tables.sql` → Create schema tables  
-- `dml/insert_data.sql` → Insert cleaned data  
-- `star_schema/fact_sales.sql` → Fact table logic  
-- `star_schema/dim_tables.sql` → Dimension tables  
-
----
-
-## 📁 Data Files  
-
-Cleaned datasets used in the project:
+## 📊 Excel Dashboard  
 
 <p align="center">
-  <img src="../image/Screenshot 2026-04-29 124541.png" width="85%" />
+  <img src="./assets/images/dashboard-excel.gif" width="90%" />
 </p>
 
----
-
-## 🧹 Cleanup Summary  
-
-Removed:
-- `.vs/` (IDE files)  
-- `.ssmssln` (Visual Studio solution)  
-- Temporary system files  
+### Features:
+- KPI tracking  
+- Revenue analysis  
+- Product performance  
+- Delivery efficiency  
 
 ---
 
-## 🛠️ Tools Used  
+## 🐍 Python Analysis  
 
-- SQL Server  
-- SSMS  
-- CSV Files  
+- Exploratory Data Analysis (EDA)  
+- Data visualization  
+- Trend analysis  
+- Business insights extraction  
 
----
-
-## 📊 Output Impact  
-
-This layer enables:
-
-- Fast analytics queries  
-- Reliable Power BI dashboards  
-- Structured business reporting  
-- Scalable data architecture  
+📌 Includes:
+- Univariate analysis  
+- Bivariate analysis  
+- Correlation heatmaps  
+- Top products analysis  
 
 ---
 
-## 🔥 Key Achievements  
+## 📊 Power BI Dashboard  
 
-✔ Built full Star Schema  
-✔ Transformed raw data into structured model  
-✔ Optimized database for analytics  
-✔ Enabled BI integration  
+- Interactive KPIs  
+- Time Intelligence (YTD / MTD)  
+- Drill-down analysis  
+- Dynamic filtering  
 
----
-
-## 💡 Business Value  
-
-- Improved data accuracy  
-- Faster reporting  
-- Better decision-making  
-- Scalable analytics foundation  
+🔗 Live Dashboard Link:  
+https://your-powerbi-link.com  
 
 ---
 
-## 🚀 Final Note  
+## 📂 Project Structure  
 
-This SQL layer is the **foundation of the entire analytics system**, connecting raw data to business intelligence dashboards.
-
----
+```bash
+supply-chain-project/
+│
+├── sql-engineering/
+├── python-analysis/
+├── excel-dashboard/
+├── power-bi/
+├── assets/
+│   ├── images/
+│   │   ├── banner.gif
+│   │   ├── dashboard-excel.gif
+│   │   ├── p1.gif
+│   │   ├── p2.gif
+│   │   ├── p3.gif
+│
+├── data/
+└── README.md
